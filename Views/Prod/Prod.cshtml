@@ -1,0 +1,76 @@
+@model ProductoModel;
+<h1>Productos</h1>
+<h2>Añadir Productos</h2>
+<form asp-action="AñadirP" asp-controller="Prod" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre"  class="form-control">
+    <label for="catid">Categoria</label>
+    <select asp-for="catid" class="form-control" name="catid" asp-items="@(new SelectList(ViewBag.Categoria,"catid","categoria"))"> 
+    <option value="">Seleccione</option></select>
+    <label for="img">Eliga una imagen</label>
+    <input type="file" name="img" class="form-control">
+    <input type="submit" value="subir">
+
+</form>
+<h2>Productos Agregados</h2>
+<div class="busqueda">
+                        
+                        <input type="text"  id="buscar" placeholder="buscar">
+                    </div>
+                
+        </div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Categoria</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        @foreach (var item in @ViewBag.Productos)
+        {
+            <tr>
+                <td>@item.proid</td>
+                <td><img src="~/imagen/@item.rutaimg" alt="img" width="50" height="50" ></td>
+                <td>@item.nombre</td>
+                @foreach (var item2 in @ViewBag.Categoria)
+                {
+                    @if(item.catid == item2.catid){
+                    <td>@item2.categoria</td>
+                    }
+                }
+                
+                
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts{
+<script>
+    $(document).ready(function(){
+    $("#buscar").keyup(function(){
+    var nombre = $('tbody tr ');
+   
+    var busqueda = $(this).val().toLowerCase();
+    var aux = '';
+    
+    for(var i = 0; i < nombre.length ;i++ ){
+        
+        aux = $(nombre[i]).text().toLowerCase();
+        
+            
+        if(busqueda.length == 0 || aux.indexOf(busqueda) > -1){
+            $(nombre[i]).show();
+        }else{
+            $(nombre[i]).hide();
+        } 
+      
+    }
+    });
+   });
+</script>
+    
+}

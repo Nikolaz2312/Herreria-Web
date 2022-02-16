@@ -1,0 +1,62 @@
+@{
+  int valorid = 0;
+}
+ <div class="row">
+@foreach (var item in @ViewBag.Prod)
+{   
+   
+        
+        <div class="col-sm-4">
+
+        
+            <div class="card" >
+              <div class="img">
+                 <img class="card-img-top " src="~/imagen/@item.rutaimg" alt="Card image" >
+              </div>
+               
+                <div class="card-body">
+                    <h4 class="card-title">@item.nombre</h4>
+                    @foreach (var item2 in @ViewBag.Cat)
+                                {
+                                    @if(item.catid == item2.catid){
+                                    <p class="card-text">Categoria: @item2.categoria</p>
+                                    }
+                                }
+                    
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" >
+                    Ver mas
+                            </button>
+                </div>
+            </div>   
+         </div>  
+        
+    
+}
+
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">foto</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+

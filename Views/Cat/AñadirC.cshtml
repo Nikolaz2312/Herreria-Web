@@ -1,0 +1,32 @@
+@model CategoriaModel;
+<h1>Agregar Categorias</h1>
+
+<form asp-action="Categ" asp-controller="Cat" method="post">
+<label for="nombre"><input type="text" name="categoria" class="form-control"></label>
+ <span asp-validation-for="categoria" class="badge bg-warning"></span>
+<input type="submit" value="Cargar Categoria">
+</form>
+<div class="container mt-3">
+    <!-- #region -->
+    <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Categorias</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in @ViewBag.Categ )
+{
+    <tr>
+        <td>@item.categoria</td>
+    </tr>
+    
+}   
+    </tbody>
+    </table>
+    
+ 
+   
+ 
+</div>
