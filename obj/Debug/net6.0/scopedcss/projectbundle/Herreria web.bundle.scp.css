@@ -6,6 +6,7 @@ a.navbar-brand[b-qgwnp1mrzm] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  background-color: #000;
 }
 
 a[b-qgwnp1mrzm] {
@@ -41,6 +42,7 @@ button.accept-policy[b-qgwnp1mrzm] {
 }
 
 .footer[b-qgwnp1mrzm] {
+  
   position: absolute;
   bottom: 0;
   width: 100%;

@@ -1,4 +1,5 @@
 @model ProductoModel;
+<div class="container text-light">
 <h1>Productos</h1>
 <h2>Añadir Productos</h2>
 <form asp-action="AñadirP" asp-controller="Prod" method="post" enctype="multipart/form-data">
@@ -19,7 +20,8 @@
                     </div>
                 
         </div>
-<table class="table table-hover">
+</div>
+<table class="table table-hover text-light">
     <thead>
         <tr>
             <th>#</th>
@@ -34,7 +36,7 @@
         {
             <tr>
                 <td>@item.proid</td>
-                <td><img src="~/imagen/@item.rutaimg" alt="img" width="50" height="50" ></td>
+                <td><img class="control" src="~/imagen/@item.rutaimg" alt="img" width="50" height="50" ></td>
                 <td>@item.nombre</td>
                 @foreach (var item2 in @ViewBag.Categoria)
                 {
@@ -48,6 +50,7 @@
         }
     </tbody>
 </table>
+
 @section Scripts{
 <script>
     $(document).ready(function(){

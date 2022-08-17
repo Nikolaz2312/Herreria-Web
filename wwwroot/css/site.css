@@ -1,5 +1,18 @@
 html {
   font-size: 14px;
+  background-color: #000;
+}
+.color{
+ border-color: #C923F5;
+}
+.border-bottom-color {
+  border-bottom: 1px solid #C923F5 !important;
+}
+.backg{
+  background-color: transparent;
+}
+.backm{
+  background-color: #000;
 }
 
 @media (min-width: 768px) {
@@ -16,12 +29,95 @@ html {
 body {
   margin-bottom: 60px;
 }
-img{
-  width: 350px;
-  height: 300px;
+img.card-img-top{
+ 
+  width: 100%;
   padding: 10px;
+  
+  
 }
-.logo{
-  width: 50px;
-  height:50px;
+@media only screen and (min-width: 576px) and (max-width: 767px){
+  img.card-img-top{
+ 
+    width: 239px;
+    height: 200px;
+    padding: 10px;
+    
+    
+  }
+}
+@media only screen and (min-width:768px) and (max-width: 990px)
+{
+  img.card-img-top{
+ 
+    width: 320px;
+    height: 210px;
+    
+    padding: 10px;
+  }
+}
+@media only screen and (min-width:992px) and (max-width: 1115px)
+{
+  img.card-img-top{
+ 
+    width: 285px;
+    height: 280px;
+    padding: 10px;
+    
+  }
+}
+@media only screen and  (min-width: 1116px)
+{
+  img.card-img-top{
+ 
+    width: 355px;
+    height: 280px;
+    padding: 10px;
+    
+  }
+}
+.galeria{
+  margin-bottom: 10px;
+  
+}
+
+a:hover{
+  filter: brightness(75%);
+  
+  
+}
+ 
+  
+
+
+.bg-osc{
+  background-color: #000;
+}
+img.imgp{
+  object-fit: cover;
+  width: 200px;
+}
+.back{
+  background-image: url("/imagenb/portada.jpg");
+  height: 500px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.back2{
+  background-image: url("/imagenb/portada2.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+.back3{
+  background-image: url("/imagenb/portada3.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
 }

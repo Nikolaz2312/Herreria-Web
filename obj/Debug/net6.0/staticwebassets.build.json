@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R9n3VlgfJL+I6Nx0fKGMaip79SeCqFKz6rqRrFAi+Uo=",
+  "Hash": "UdUr2IYqOkcRwgCgHbXWmc12ZATgdkqw/OvZVjw7THw=",
   "Source": "Herreria web",
   "BasePath": "_content/Herreria web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\imagen\\214f4730-f701-4b6e-a37f-50cb6d3d44e0Baranda.jpg",
+      "SourceId": "Herreria web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\",
+      "BasePath": "_content/Herreria web",
+      "RelativePath": "imagen/214f4730-f701-4b6e-a37f-50cb6d3d44e0Baranda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagen\\214f4730-f701-4b6e-a37f-50cb6d3d44e0Baranda.jpg"
     },
     {
       "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\imagen\\26f74fc3-d2ed-4825-beec-94e6b0773e17mamparas.jpg",
@@ -185,6 +202,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagen\\c4e80d1d-7f52-4b8b-a3fb-c8fc89cf6ddbmueble1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\imagenb\\portada.jpg",
+      "SourceId": "Herreria web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\",
+      "BasePath": "_content/Herreria web",
+      "RelativePath": "imagenb/portada.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenb\\portada.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\imagenb\\portada2.jpg",
+      "SourceId": "Herreria web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\",
+      "BasePath": "_content/Herreria web",
+      "RelativePath": "imagenb/portada2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenb\\portada2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\imagenb\\portada3.jpg",
+      "SourceId": "Herreria web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\",
+      "BasePath": "_content/Herreria web",
+      "RelativePath": "imagenb/portada3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenb\\portada3.jpg"
     },
     {
       "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\js\\site.js",
@@ -1173,12 +1241,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\Logo\\logo.jpg",
+      "Identity": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\Logo\\logo.png",
       "SourceId": "Herreria web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ni\\Desktop\\Herreria\\Herreria web\\wwwroot\\",
       "BasePath": "_content/Herreria web",
-      "RelativePath": "Logo/logo.jpg",
+      "RelativePath": "Logo/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,7 +1255,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Logo\\logo.jpg"
+      "OriginalItemSpec": "wwwroot\\Logo\\logo.png"
     }
   ]
 }
